@@ -1,0 +1,13 @@
+@article{Cahoon28032008,
+author = {Cahoon, James F. and Sawyer, Karma R. and Schlegel, Jacob P. and Harris, Charles B.}, 
+title = {Determining Transition-State Geometries in Liquids Using 2D-IR},
+volume = {319}, 
+number = {5871}, 
+pages = {1820-1823}, 
+year = {2008}, 
+doi = {10.1126/science.1154041}, 
+abstract ={Many properties of chemical reactions are determined by the transition state connecting reactant and product, yet it is difficult to directly obtain any information about these short-lived structures in liquids. We show that two-dimensional infrared (2D-IR) spectroscopy can provide direct information about transition states by tracking the transformation of vibrational modes as a molecule crossed a transition state. We successfully monitored a simple chemical reaction, the fluxional rearrangement of Fe(CO)5, in which the exchange of axial and equatorial CO ligands causes an exchange of vibrational energy between the normal modes of the molecule. This energy transfer provides direct evidence regarding the time scale, transition state, and mechanism of the reaction.}, 
+URL = {http://www.sciencemag.org/content/319/5871/1820.abstract}, 
+eprint = {http://www.sciencemag.org/content/319/5871/1820.full.pdf}, 
+journal = {Science} 
+}

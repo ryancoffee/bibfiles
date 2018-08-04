@@ -1,0 +1,13 @@
+@article{Schoenlein18101991,
+author = {Schoenlein, RW and Peteanu, LA and Mathies, RA and Shank, CV}, 
+title = {The first step in vision: femtosecond isomerization of rhodopsin}, 
+volume = {254}, 
+number = {5030}, 
+pages = {412-415}, 
+year = {1991}, 
+doi = {10.1126/science.1925597}, 
+abstract ={The kinetics of the primary event in vision have been resolved with the use of femtosecond optical measurement techniques. The 11-cis retinal prosthetic group of rhodopsin is excited with a 35-femtosecond pump pulse at 500 nanometers, and the transient changes in absorption are measured between 450 and 580 nanometers with a 10-femtosecond probe pulse. Within 200 femtoseconds, an increased absorption is observed between 540 and 580 nanometers, indicating the formation of photoproduct on this time scale. These measurements demonstrate that the first step in vision, the 11-cis----11-trans torsional isomerization of the rhodopsin chromophore, is essentially complete in only 200 femtoseconds.}, 
+URL = {http://www.sciencemag.org/content/254/5030/412.abstract}, 
+eprint = {http://www.sciencemag.org/content/254/5030/412.full.pdf}, 
+journal = {Science} 
+}

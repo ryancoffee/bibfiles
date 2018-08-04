@@ -1,0 +1,13 @@
+@article{Schöffler16052008,
+author = {Schöffler, M. S. and Titze, J. and Petridis, N. and Jahnke, T. and Cole, K. and Schmidt, L. Ph. H. and Czasch, A. and Akoury, D. and Jagutzki, O. and Williams, J. B. and Cherepkov, N. A. and Semenov, S. K. and McCurdy, C. W. and Rescigno, T. N. and Cocke, C. L. and Osipov, T. and Lee, S. and Prior, M. H. and Belkacem, A. and Landers, A. L. and Schmidt-Böcking, H. and Weber, Th. and Dörner, R.}, 
+title = {Ultrafast Probing of Core Hole Localization in N2}, 
+volume = {320}, 
+number = {5878}, 
+pages = {920-923}, 
+year = {2008}, 
+doi = {10.1126/science.1154989}, 
+abstract ={Although valence electrons are clearly delocalized in molecular bonding frameworks, chemists and physicists have long debated the question of whether the core vacancy created in a homonuclear diatomic molecule by absorption of a single x-ray photon is localized on one atom or delocalized over both. We have been able to clarify this question with an experiment that uses Auger electron angular emission patterns from molecular nitrogen after inner-shell ionization as an ultrafast probe of hole localization. The experiment, along with the accompanying theory, shows that observation of symmetry breaking (localization) or preservation (delocalization) depends on how the quantum entangled Bell state created by Auger decay is detected by the measurement.}, 
+URL = {http://www.sciencemag.org/content/320/5878/920.abstract}, 
+eprint = {http://www.sciencemag.org/content/320/5878/920.full.pdf}, 
+journal = {Science} 
+}
