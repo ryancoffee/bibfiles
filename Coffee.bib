@@ -9,13 +9,21 @@
 @string{josab = "J.\ Opt.\ Soc.\ Am.B"}
 @string{ol = "Opt.\ Lett."}
 
+@misc{CookieNetAE,
+	title = {Open source implementation of the CookieNetAE model},
+	author = {Naoufal Layad, Zhengchun Liu, and Ryan Coffee},
+	note = {\url{https://github.com/AISDC/CookieNetAE}}
+}
+	%url = {https://github.com/AISDC/CookieNetAE},
+
 @misc{CookieSimSlim,
 	title = {CookieSimSlim: Slim simulator for LCLS-SLAC CookieBox detector},
 	author = {Ryan N Coffee},
-	url = {https://github.com/ryancoffee/CookieSimSlim},
-	notes = {https://github.com/ryancoffee/CookieSimSlim}
+	note = {\url{https://github.com/ryancoffee/CookieSimSlim}}
 }
-@misc{Ahsan2022fairDMS,
+	%url = {https://github.com/ryancoffee/CookieSimSlim},
+
+@article{Ahsan2022fairDMS,
   doi = {10.48550/ARXIV.2204.09805},
   url = {https://arxiv.org/abs/2204.09805},
   author = {Ali, Ahsan and Sharma, Hemant and Kettimuthu, Rajkumar and Kenesei, Peter and Trujillo, Dennis and Miceli, Antonino and Foster, Ian and Coffee, Ryan and Thayer, Jana and Liu, Zhengchun},
@@ -23,11 +31,11 @@
   title = {fairDMS: Rapid Model Training by Data and Model Reuse},
   publisher = {arXiv},
   year = {2022},
-  copyright = {arXiv.org perpetual, non-exclusive license}
 }
+ %copyright = {arXiv.org perpetual, non-exclusive license}
 
 
-@misc{liu2022bridging,
+@article{liu2022bridging_arxiv,
       title={Bridging Data Center AI Systems with Edge Computing for Actionable Information Retrieval},
       author={Zhengchun Liu and Ahsan Ali and Peter Kenesei and Antonino Miceli and Hemant Sharma and Nicholas Schwarz and Dennis Trujillo and Hyunseung Yoo and Ryan Coffee and Naoufal Layad and Jana Thayer and Ryan Herbst and ChunHong Yoon and Ian Foster},
       year={2022},
@@ -36,30 +44,31 @@
       primaryClass={cs.LG}
 }
 
-@misc{AISDC_2021,
-      title={Bridge Data Center AI Systems with Edge Computing for Actionable Information Retrieval}, 
-      author={Zhengchun Liu and Ahsan Ali and Peter Kenesei and Antonino Miceli and Hemant Sharma and Nicholas Schwarz and Dennis Trujillo and Hyunseung Yoo and Ryan Coffee and Ryan Herbst and Jana Thayer and Chun Hong Yoon and Ian Foster},
-      year={2021},
-      eprint={2105.13967},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{liu2021bridging,
+  title={Bridging Data Center AI Systems with Edge Computing for Actionable Information Retrieval},
+  author={Liu, Zhengchun and Ali, Ahsan and Kenesei, Peter and Miceli, Antonino and Sharma, Hemant and Schwarz, Nicholas and Trujillo, Dennis and Yoo, Hyunseung and Coffee, Ryan and Layad, Naoufal and others},
+  booktitle={2021 3rd Annual Workshop on Extreme-scale Experiment-in-the-Loop Computing (XLOOP)},
+  pages={15--23},
+  year={2021},
+  doi = {10.1109/XLOOP54565.2021.00008},
+  publisher={IEEE}
 }
 
 
 @article{Peter2021,
-author = "Walter, Peter and Kamalov, Andrei and Gatton, Averell and Driver, Taran and Bhogadi, Dileep and Castagna, Jean-Charles and Cheng, Xianchao and Shi, Hongliang and Obaid, Razib and Cryan, James and Helml, Wolfram and Ilchen, Markus and Coffee, Ryan N.",
-title = "{Multi-resolution electron spectrometer array for future free-electron laser experiments}",
-journal = "Journal of Synchrotron Radiation",
-year = "2021",
-volume = "28",
-number = "5",
-pages = "1364--1376",
-month = "Sep",
+author = {Walter, Peter and Kamalov, Andrei and Gatton, Averell and Driver, Taran and Bhogadi, Dileep and Castagna, Jean-Charles and Cheng, Xianchao and Shi, Hongliang and Obaid, Razib and Cryan, James and Helml, Wolfram and Ilchen, Markus and Coffee, Ryan N.},
+title = {Multi-resolution electron spectrometer array for future free-electron laser experiments},
+journal = {Journal of Synchrotron Radiation},
+year = {2021},
+volume = {28},
+number = {5},
+pages = {1364--1376},
+month = {Sep},
 doi = {10.1107/S1600577521007700},
-url = {https://doi.org/10.1107/S1600577521007700},
-abstract = {The design of an angular array of electron time-of-flight (eToF) spectrometers is reported, intended for non-invasive spectral, temporal, and polarization characterization of single shots of high-repetition rate, quasi-continuous, short-wavelength free-electron lasers (FELs) such as the LCLSII at SLAC. This array also enables angle-resolved, high-resolution eToF spectroscopy to address a variety of scientific questions on ultrafast and nonlinear light{--}matter inter{\-}actions at FELs. The presented device is specifically designed for the time-resolved atomic, molecular and optical science endstation (TMO) at LCLSII. In its final version, the spectrometer comprises up to 20 eToF spectrometers aligned to collect electrons from the interaction point, which is defined by the intersection of the incoming FEL radiation and a gaseous target. The full composition involves 16 spectrometers forming a circular equiangular array in the plane normal to the X-ray propagation and four spectrometers at 54.7{$^\circ$} angle relative to the principle linear X-ray polarization axis with orientations in the forward and backward direction of the light propagation. The spectrometers are capable of independent and minimally chromatic electrostatic lensing and retardation, in order to enable simultaneous angle-resolved photo- and Auger{--}Meitner electron spectroscopy with high energy resolution. They are designed to ensure an energy resolution of 0.25eV across an energy window of up to 75eV, which can be individually centered via the adjustable retardation to cover the full range of electron kinetic energies relevant to soft X-ray methods, 0{--}2keV. The full spectrometer array will enable non-invasive and online spectral-polarimetry measurements, polarization-sensitive attoclock spectroscopy for characterizing the full time{--}energy structure of SASE or seeded LCLSII pulses, and support emerging trends in molecular-frame spectroscopy measurements.},
-keywords = {FEL, X-ray spectroscopy, attosecond science, FEL diagnostic},
+url = {https://doi.org/10.1107/S1600577521007700}
 }
+%keywords = {FEL, X-ray spectroscopy, attosecond science, FEL diagnostic}
+%abstract = {The design of an angular array of electron time-of-flight (eToF) spectrometers is reported, intended for non-invasive spectral, temporal, and polarization characterization of single shots of high-repetition rate, quasi-continuous, short-wavelength free-electron lasers (FELs) such as the LCLSII at SLAC. This array also enables angle-resolved, high-resolution eToF spectroscopy to address a variety of scientific questions on ultrafast and nonlinear light{--}matter inter{\-}actions at FELs. The presented device is specifically designed for the time-resolved atomic, molecular and optical science endstation (TMO) at LCLSII. In its final version, the spectrometer comprises up to 20 eToF spectrometers aligned to collect electrons from the interaction point, which is defined by the intersection of the incoming FEL radiation and a gaseous target. The full composition involves 16 spectrometers forming a circular equiangular array in the plane normal to the X-ray propagation and four spectrometers at 54.7{$^\circ$} angle relative to the principle linear X-ray polarization axis with orientations in the forward and backward direction of the light propagation. The spectrometers are capable of independent and minimally chromatic electrostatic lensing and retardation, in order to enable simultaneous angle-resolved photo- and Auger{--}Meitner electron spectroscopy with high energy resolution. They are designed to ensure an energy resolution of 0.25eV across an energy window of up to 75eV, which can be individually centered via the adjustable retardation to cover the full range of electron kinetic energies relevant to soft X-ray methods, 0{--}2keV. The full spectrometer array will enable non-invasive and online spectral-polarimetry measurements, polarization-sensitive attoclock spectroscopy for characterizing the full time{--}energy structure of SASE or seeded LCLSII pulses, and support emerging trends in molecular-frame spectroscopy measurements.},
 
 
 @misc{CookieBox_arXiv,
@@ -77,8 +86,8 @@ keywords = {FEL, X-ray spectroscopy, attosecond science, FEL diagnostic},
 	journal={Physics in Medicine \& Biology},
 	url={http://iopscience.iop.org/article/10.1088/1361-6560/abd951},
 	year={2021},
-	abstract={In this work, we continue our study of a new method for the detection of ionizing radiation with the potential for a dramatic improvement in coincidence time resolution (CTR) for time-of-flight positron emission tomography (ToF-PET) using the modulation of a material's optical properties instead of the scintillation mechanism. Our previous work has shown that for non-scintillation materials such as bismuth silicon oxide (BSO) and cadmium telluride (CdTe), their refractive index can be modulated by annihilation photon interactions. The ultrafast nature of this process however remains unexplored. The ionizing radiation-induced charge carriers alter the local band structure in these materials, thus changing the complex refractive index. This mechanism is routinely used at the Linac Coherent Light Source (LCLS) facility of the SLAC National Accelerator Laboratory to measure X-ray pulse arrival times with femtosecond scale resolution for photon energies between 0.5 -- 10 keV. The method described here follows that example by using a frequency chirped visible continuum pulse to provide a monotonic wavelength-to-time mapping by which one can measure the time-dependent refractive index modulation. In addition, we describe an interference-based measurement setup that allows for significantly improved sensitivity while preserving a timing precision of approximately 10 fs (σ) when measuring the arrival time of below 10 keV X-ray pulses with yttrium aluminum garnet (YAG) crystal. The method is presented in the context of ToF-PET application with further discussions on the potential CTR achievable if a similar detection concept is adopted for detecting 511 keV photons. Semi-empirical analysis indicates that the predicted CTR achievable is on the order of 1 ps (FWHM).}
 }
+%abstract={In this work, we continue our study of a new method for the detection of ionizing radiation with the potential for a dramatic improvement in coincidence time resolution (CTR) for time-of-flight positron emission tomography (ToF-PET) using the modulation of a material's optical properties instead of the scintillation mechanism. Our previous work has shown that for non-scintillation materials such as bismuth silicon oxide (BSO) and cadmium telluride (CdTe), their refractive index can be modulated by annihilation photon interactions. The ultrafast nature of this process however remains unexplored. The ionizing radiation-induced charge carriers alter the local band structure in these materials, thus changing the complex refractive index. This mechanism is routinely used at the Linac Coherent Light Source (LCLS) facility of the SLAC National Accelerator Laboratory to measure X-ray pulse arrival times with femtosecond scale resolution for photon energies between 0.5 -- 10 keV. The method described here follows that example by using a frequency chirped visible continuum pulse to provide a monotonic wavelength-to-time mapping by which one can measure the time-dependent refractive index modulation. In addition, we describe an interference-based measurement setup that allows for significantly improved sensitivity while preserving a timing precision of approximately 10 fs (σ) when measuring the arrival time of below 10 keV X-ray pulses with yttrium aluminum garnet (YAG) crystal. The method is presented in the context of ToF-PET application with further discussions on the potential CTR achievable if a similar detection concept is adopted for detecting 511 keV photons. Semi-empirical analysis indicates that the predicted CTR achievable is on the order of 1 ps (FWHM).}
 
 	
 @article{Sudar2020,
@@ -131,11 +140,11 @@ day={07},
 volume={9},
 number={1},
 pages={4659},
-abstract={Short wavelength free-electron lasers (FELs), providing pulses of ultrahigh photon intensity, have revolutionized spectroscopy on ionic targets. Their exceptional photon flux enables multiple photon absorptions within a single femtosecond pulse, which in turn allows for deep insights into the photoionization process itself as well as into evolving ionic states of a target. Here we employ ultraintense pulses from the FEL FERMI to spectroscopically investigate the sequential emission of electrons from gaseous, atomic argon in the neutral as well as the ionic ground state. A pronounced forward-backward symmetry breaking of the angularly resolved emission patterns with respect to the light propagation direction is experimentally observed and theoretically explained for the region of the Cooper minimum, where the asymmetry of electron emission is strongly enhanced. These findings aim to originate a better understanding of the fundamentals of photon momentum transfer in ionic matter.},
 issn={2041-1723},
 doi={10.1038/s41467-018-07152-7},
 url={https://doi.org/10.1038/s41467-018-07152-7}
 }
+%abstract={Short wavelength free-electron lasers (FELs), providing pulses of ultrahigh photon intensity, have revolutionized spectroscopy on ionic targets. Their exceptional photon flux enables multiple photon absorptions within a single femtosecond pulse, which in turn allows for deep insights into the photoionization process itself as well as into evolving ionic states of a target. Here we employ ultraintense pulses from the FEL FERMI to spectroscopically investigate the sequential emission of electrons from gaseous, atomic argon in the neutral as well as the ionic ground state. A pronounced forward-backward symmetry breaking of the angularly resolved emission patterns with respect to the light propagation direction is experimentally observed and theoretically explained for the region of the Cooper minimum, where the asymmetry of electron emission is strongly enhanced. These findings aim to originate a better understanding of the fundamentals of photon momentum transfer in ionic matter.},
 
 
 
@@ -149,12 +158,11 @@ number = {2145},
 pages = {20180386},
 year = {2019},
 doi = {10.1098/rsta.2018.0386},
-
 URL = {https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2018.0386},
 eprint = {https://royalsocietypublishing.org/doi/pdf/10.1098/rsta.2018.0386}
-,
-    abstract = { The ability to produce ultrashort, high-brightness X-ray pulses is revolutionizing the field of ultrafast X-ray spectroscopy. Free-electron laser (FEL) facilities are driving this revolution, but unique aspects of the FEL process make the required characterization and use of the pulses challenging. In this paper, we describe a number of developments in the generation of ultrashort X-ray FEL pulses, and the concomitant progress in the experimental capabilities necessary for their characterization and use at the Linac Coherent Light Source. This includes the development of sub-femtosecond hard and soft X-ray pulses, along with ultrafast characterization techniques for these pulses. We also describe improved techniques for optical cross-correlation as needed to address the persistent challenge of external optical laser synchronization with these ultrashort X-ray pulses. This article is part of the theme issue ‘Measurement of ultrafast electronic and structural dynamics with X-rays’. }
 }
+%abstract = { The ability to produce ultrashort, high-brightness X-ray pulses is revolutionizing the field of ultrafast X-ray spectroscopy. Free-electron laser (FEL) facilities are driving this revolution, but unique aspects of the FEL process make the required characterization and use of the pulses challenging. In this paper, we describe a number of developments in the generation of ultrashort X-ray FEL pulses, and the concomitant progress in the experimental capabilities necessary for their characterization and use at the Linac Coherent Light Source. This includes the development of sub-femtosecond hard and soft X-ray pulses, along with ultrafast characterization techniques for these pulses. We also describe improved techniques for optical cross-correlation as needed to address the persistent challenge of external optical laser synchronization with these ultrashort X-ray pulses. This article is part of the theme issue ‘Measurement of ultrafast electronic and structural dynamics with X-rays’. }
+
 @article{Feurer2018,
 	AUTHOR = {Schweizer, Tobias and Br\"{u}gmann, Michael  H. and Helml, Wolfram and Hartmann, Nick and Coffee, Ryan and Feurer, Thomas},
 	TITLE = {Attoclock Ptychography},
@@ -179,8 +187,8 @@ eprint = {https://royalsocietypublishing.org/doi/pdf/10.1098/rsta.2018.0386}
 	url = {https://doi.org/10.1038/s41566-018-0107-6},
 	doi = {10.1038/s41566-018-0107-6},
 	volume = {12}
-	abstract = {The time–energy information of ultrashort X-ray free-electron laser pulses generated by the Linac Coherent Light Source is measured with attosecond resolution via angular streaking of neon 1s photoelectrons. The X-ray pulses promote electrons from the neon core level into an ionization continuum, where they are dressed with the electric field of a circularly polarized infrared laser. This induces characteristic modulations of the resulting photoelectron energy and angular distribution. From these modulations we recover the single-shot attosecond intensity structure and chirp of arbitrary X-ray pulses based on self-amplified spontaneous emission, which have eluded direct measurement so far. We characterize individual attosecond pulses, including their instantaneous frequency, and identify double pulses with well-defined delays and spectral properties, thus paving the way for X-ray pump/X-ray probe attosecond free-electron laser science.}
 }
+%	abstract = {The time–energy information of ultrashort X-ray free-electron laser pulses generated by the Linac Coherent Light Source is measured with attosecond resolution via angular streaking of neon 1s photoelectrons. The X-ray pulses promote electrons from the neon core level into an ionization continuum, where they are dressed with the electric field of a circularly polarized infrared laser. This induces characteristic modulations of the resulting photoelectron energy and angular distribution. From these modulations we recover the single-shot attosecond intensity structure and chirp of arbitrary X-ray pulses based on self-amplified spontaneous emission, which have eluded direct measurement so far. We characterize individual attosecond pulses, including their instantaneous frequency, and identify double pulses with well-defined delays and spectral properties, thus paving the way for X-ray pump/X-ray probe attosecond free-electron laser science.}
 
 @article{Siqi2018,
 author = {Siqi Li and Zhaoheng Guo and Ryan N. Coffee and Kareem Hegazy and Zhirong Huang and Adi Natan and Timur Osipov and Dipanwita Ray and Agostino Marinelli and James P. Cryan},
@@ -194,9 +202,9 @@ volume = {26},
 month = {Feb},
 year = {2018},
 url = {http://www.opticsexpress.org/abstract.cfm?URI=oe-26-4-4531},
-doi = {10.1364/OE.26.004531},
-abstract = {We present a reconstruction algorithm for isolated attosecond pulses, which exploits the phase dependent energy modulation of a photoelectron ionized in the presence of a strong laser field. The energy modulation due to a circularly polarized laser field is manifest strongly in the angle-resolved photoelectron momentum distribution, allowing for complete reconstruction of the temporal and spectral profile of an attosecond burst. We show that this type of reconstruction algorithm is robust against counting noise and suitable for single-shot experiments. This algorithm holds potential for a variety of applications for attosecond pulse sources.}
+doi = {10.1364/OE.26.004531}
 }
+%abstract = {We present a reconstruction algorithm for isolated attosecond pulses, which exploits the phase dependent energy modulation of a photoelectron ionized in the presence of a strong laser field. The energy modulation due to a circularly polarized laser field is manifest strongly in the angle-resolved photoelectron momentum distribution, allowing for complete reconstruction of the temporal and spectral profile of an attosecond burst. We show that this type of reconstruction algorithm is robust against counting noise and suitable for single-shot experiments. This algorithm holds potential for a variety of applications for attosecond pulse sources.}
 
 @article{Kareem2017,
 author = {Kareem Hegazy, Markus Illchen, Jie Yang, Xiaozhe Shen, Renkai Li, Theodore Vecchione, Jeff Corbett, Alan Fry, Nick Hartmann, Carsten Hast, Keith Jobe, Igor Makasyuk, Joseph Robinson, Sharon Vetter, Stephen Weathersby, Charles Yoneda, Xijie Wang, and Ryan Coffee},
@@ -400,9 +408,9 @@ doi = {10.1038/nphoton.2016.201}
 	pages = {468--472},
 	publisher = {Nature Publishing Group},
 	url = {http://dx.doi.org/10.1038/nphoton.2016.79},
-	doi = {10.1038/nphoton.2016.79},
-	abstract = {X-ray free-electron lasers are unique sources of high-brightness coherent radiation. However, existing devices supply only linearly polarized light, precluding studies of chiral dynamics. A device called the Delta undulator has been installed at the Linac Coherent Light Source (LCLS) to provide tunable polarization. With a reverse tapered planar undulator line to pre-microbunch the beam and the novel technique of beam diverting, hundreds of microjoules of circularly polarized X-ray pulses are produced at 500–1,200 eV. These X-ray pulses are tens of femtoseconds long, have a degree of circular polarization of 0.98–0.04+0.02 at 707 eV and may be scanned in energy. We also present a new two-colour X-ray pump–X-ray probe operating mode for the LCLS. Energy differences of ΔE/E = 2.4\% are supported, and the second pulse can be adjusted to any elliptical polarization. In this mode, the pointing, timing, intensity and wavelength of the two pulses can be modified.}
+	doi = {10.1038/nphoton.2016.79}
 }
+%abstract = {X-ray free-electron lasers are unique sources of high-brightness coherent radiation. However, existing devices supply only linearly polarized light, precluding studies of chiral dynamics. A device called the Delta undulator has been installed at the Linac Coherent Light Source (LCLS) to provide tunable polarization. With a reverse tapered planar undulator line to pre-microbunch the beam and the novel technique of beam diverting, hundreds of microjoules of circularly polarized X-ray pulses are produced at 500–1,200 eV. These X-ray pulses are tens of femtoseconds long, have a degree of circular polarization of 0.98–0.04+0.02 at 707 eV and may be scanned in energy. We also present a new two-colour X-ray pump–X-ray probe operating mode for the LCLS. Energy differences of ΔE/E = 2.4\% are supported, and the second pulse can be adjusted to any elliptical polarization. In this mode, the pointing, timing, intensity and wavelength of the two pulses can be modified.}
 
 @article{Ding2015,
 	author = "Ding, Y. and Behrens, C. and Coffee, R. and Decker, F.-J. and Emma, P. and Field, C. and Helml, W. and Huang, Z. and Krejcik, P. and Krzywinski, J. and Loos, H. and Lutman, A. and Marinelli, A. and Maxwell, T. J. and Turner, J.",
@@ -723,7 +731,7 @@ author = {Helml W. and Maier, A. R. and Schweinberger, W. and Grgura\v{s}, I. an
 	url={http://stacks.iop.org/0953-4075/45/i=5/a=055601},
 	year={2012}
 }
-abstract={Here we present the first angle-resolved, non-resonant (normal) Auger spectra for impulsively aligned nitrogen molecules. We have measured the angular pattern of Auger electron emission following K -shell photoionization by 1.1 keV photons from the Linac Coherent Light Source (LCLS). Using strong-field-induced molecular alignment to make molecular frame measurements is equally effective for both repulsive and quasi-bound final states. The capability to resolve Auger emission angular distributions in the molecular frame of reference provides a new tool for spectral assignments in congested Auger electron spectra that takes advantage of the symmetries of the final diction states. Based on our experimental results and theoretical predictions, we propose the assignment of the spectral features in the Auger electron spectrum.}
+%abstract={Here we present the first angle-resolved, non-resonant (normal) Auger spectra for impulsively aligned nitrogen molecules. We have measured the angular pattern of Auger electron emission following K -shell photoionization by 1.1 keV photons from the Linac Coherent Light Source (LCLS). Using strong-field-induced molecular alignment to make molecular frame measurements is equally effective for both repulsive and quasi-bound final states. The capability to resolve Auger emission angular distributions in the molecular frame of reference provides a new tool for spectral assignments in congested Auger electron spectra that takes advantage of the symmetries of the final diction states. Based on our experimental results and theoretical predictions, we propose the assignment of the spectral features in the Auger electron spectrum.}
 }
 
 
@@ -751,9 +759,9 @@ abstract={Here we present the first angle-resolved, non-resonant (normal) Auger 
 	number={9},
 	pages={093024},
 	url={http://stacks.iop.org/1367-2630/13/i=9/a=093024},
-	year={2011},
-	abstract={Two-color, single-shot time-of-flight electron spectroscopy of atomic neon was employed at the Linac Coherent Light Source (LCLS) to measure laser-assisted Auger decay in the x-ray regime. This x-ray-optical cross-correlation technique provides a straightforward, non-invasive and on-line means of determining the duration of femtosecond (>40 fs) x-ray pulses. In combination with a theoretical model of the process based on the soft-photon approximation, we were able to obtain the LCLS pulse duration and to extract a mean value of the temporal jitter between the optical pulses from a synchronized Ti-sapphire laser and x-ray pulses from the LCLS. We find that the experimentally determined values are systematically smaller than the length of the electron bunches. Nominal electron pulse durations of 175 and 75 fs, as provided by the LCLS control system, yield x-ray pulse shapes of 120±20 fs full-width at half-maximum (FWHM) and an upper limit of 40±20 fs FWHM, respectively. Simulations of the free-electron laser agree well with the experimental results.}
+	year={2011}
 }
+%abstract={Two-color, single-shot time-of-flight electron spectroscopy of atomic neon was employed at the Linac Coherent Light Source (LCLS) to measure laser-assisted Auger decay in the x-ray regime. This x-ray-optical cross-correlation technique provides a straightforward, non-invasive and on-line means of determining the duration of femtosecond (>40 fs) x-ray pulses. In combination with a theoretical model of the process based on the soft-photon approximation, we were able to obtain the LCLS pulse duration and to extract a mean value of the temporal jitter between the optical pulses from a synchronized Ti-sapphire laser and x-ray pulses from the LCLS. We find that the experimentally determined values are systematically smaller than the length of the electron bunches. Nominal electron pulse durations of 175 and 75 fs, as provided by the LCLS control system, yield x-ray pulse shapes of 120±20 fs full-width at half-maximum (FWHM) and an upper limit of 40±20 fs FWHM, respectively. Simulations of the free-electron laser agree well with the experimental results.}
 
 @incollection{Advances2011,
 	title = "Chapter 5 - The First Atomic and Molecular Experiments at the Linac Coherent Light Source X-Ray Free Electron Laser",
@@ -770,9 +778,9 @@ abstract={Here we present the first angle-resolved, non-resonant (normal) Auger 
 	author = "Philip H. Bucksbaum and Ryan Coffee and Nora Berrah",
 	keywords = "Ultrafast",
 	keywords = "x-ray",
-	keywords = "free-electron laser",
-	abstract = {Abstract The Stanford Linac Coherent Light Source (LCLS) located at the SLAC National Accelerator Laboratory in Menlo Park, California, began operation in the Fall of 2009. The LCLS is a true x-ray laser, approximately one billion times brighter than any previous laboratory source of x-ray radiation. Here we review some of the first atomic, molecular, and optical experiments that probe the fundamental interactions of such uniquely bright and short x-ray pulses with atoms and molecules, summarize some of the theory leading up to these experiments and conclude with some ideas on future avenues of investigation.}
+	keywords = "free-electron laser"
 }
+%abstract = {Abstract The Stanford Linac Coherent Light Source (LCLS) located at the SLAC National Accelerator Laboratory in Menlo Park, California, began operation in the Fall of 2009. The LCLS is a true x-ray laser, approximately one billion times brighter than any previous laboratory source of x-ray radiation. Here we review some of the first atomic, molecular, and optical experiments that probe the fundamental interactions of such uniquely bright and short x-ray pulses with atoms and molecules, summarize some of the theory leading up to these experiments and conclude with some ideas on future avenues of investigation.}
 
 @article{Bionta11, 
 	author = {Mina R. Bionta and H. T. Lemke and J. P. Cryan and J. M. Glownia and C. Bostedt and M. Cammarata and J.-C. Castagna and Y. Ding and D. M. Fritz and A. R. Fry and J. Krzywinski and M. Messerschmidt and S. Schorb and M. L. Swiggers and R. N. Coffee}, 
@@ -786,9 +794,9 @@ abstract={Here we present the first angle-resolved, non-resonant (normal) Auger 
 	month = {Oct},
 	year = {2011},
 	url = {http://www.opticsexpress.org/abstract.cfm?URI=oe-19-22-21855},
-	doi = {10.1364/OE.19.021855},
-	abstract = {We present a new technique for measuring the relative delay between a soft x-ray FEL pulse and an optical laser that indicates a sub 25 fs RMS measurement error. An ultra-short x-ray pulse photo-ionizes a semiconductor (Si3N4) membrane and changes the optical transmission. An optical continuum pulse with a temporally chirped bandwidth spanning 630 nm -- 710 nm interacts with the membrane such that the timing of the x-ray pulse can be determined from the onset of the spectral modulation of the transmitted optical pulse. This experiment demonstrates a nearly in situ single-shot measurement of the x-ray pulse arrival time relative to the ultra-short optical pulse.}
+	doi = {10.1364/OE.19.021855}
 }
+%abstract = {We present a new technique for measuring the relative delay between a soft x-ray FEL pulse and an optical laser that indicates a sub 25 fs RMS measurement error. An ultra-short x-ray pulse photo-ionizes a semiconductor (Si3N4) membrane and changes the optical transmission. An optical continuum pulse with a temporally chirped bandwidth spanning 630 nm -- 710 nm interacts with the membrane such that the timing of the x-ray pulse can be determined from the onset of the spectral modulation of the transmitted optical pulse. This experiment demonstrates a nearly in situ single-shot measurement of the x-ray pulse arrival time relative to the ultra-short optical pulse.}
 
 
 @article{Lomb11,
@@ -860,8 +868,8 @@ abstract={Here we present the first angle-resolved, non-resonant (normal) Auger 
 	volume = "80",
 	pages = "063412",
 	year = "2009",
-	abstract = "{We demonstrate a high level of laser-induced transient alignment in room temperature and density N$_2$ with a technique that avoids laser field ionization. Our measured alignment shows an improvement over previous one-pulse or two-pulse experimental alignment results and approaches the theoretical maximum value. We employ eight equally spaced ultrafast laser pulses with a separation that takes advantage of the periodic revivals for the ensemble of quantum rotors. Each successive pulse increases the transient alignment [<$\cos^2 \theta$>(t)] and also moves the rotational population away from thermal equilibrium. These measurements are combined with simulations to determine the value of <$\cos^2 \theta$>, the J-state distributions, and the functional dependencies of the alignment features.}"
 }
+%abstract = "{We demonstrate a high level of laser-induced transient alignment in room temperature and density N$_2$ with a technique that avoids laser field ionization. Our measured alignment shows an improvement over previous one-pulse or two-pulse experimental alignment results and approaches the theoretical maximum value. We employ eight equally spaced ultrafast laser pulses with a separation that takes advantage of the periodic revivals for the ensemble of quantum rotors. Each successive pulse increases the transient alignment [<$\cos^2 \theta$>(t)] and also moves the rotational population away from thermal equilibrium. These measurements are combined with simulations to determine the value of <$\cos^2 \theta$>, the J-state distributions, and the functional dependencies of the alignment features.}"
 
 @article{Broege08,
 	JOURNAL = "Phys. Rev. A",
