@@ -9,6 +9,89 @@
 @string{josab = "J.\ Opt.\ Soc.\ Am.B"}
 @string{ol = "Opt.\ Lett."}
 
+
+
+@ARTICLE{Berthie_2022,
+AUTHOR={Gouin-Ferland, Berthié and Coffee, Ryan and Therrien, Audrey C.},
+TITLE={Data reduction through optimized scalar quantization for more compact neural networks},
+JOURNAL={Frontiers in Physics},
+VOLUME={10},
+YEAR={2022},
+URL={https://www.frontiersin.org/articles/10.3389/fphy.2022.957128},
+DOI={10.3389/fphy.2022.957128},
+ISSN={2296-424X},
+ABSTRACT={Raw data generation for several existing and planned large physics experiments now exceeds TB/s rates, generating untenable data sets in very little time. Those data often demonstrate high dimensionality while containing limited information. Meanwhile, Machine Learning algorithms are now becoming an essential part of data processing and data analysis. Those algorithms can be used offline for post processing and post data analysis, or they can be used online for real time processing providing ultra low latency experiment monitoring. Both use cases would benefit from data throughput reduction while preserving relevant information: one by reducing the offline storage requirements by several orders of magnitude and the other by allowing ultra fast online inferencing with low complexity Machine Learning models. Moreover, reducing the data source throughput also reduces material cost, power and data management requirements. In this work we demonstrate optimized nonuniform scalar quantization for data source reduction. This data reduction allows lower dimensional representations while preserving the relevant information of the data, thus enabling high accuracy Tiny Machine Learning classifier models for online fast inferences. We demonstrate this approach with an initial proof of concept targeting the CookieBox, an array of electron spectrometers used for angular streaking, that was developed for LCLS-II as an online beam diagnostic tool. We used the Lloyd-Max algorithm with the CookieBox dataset to design an optimized nonuniform scalar quantizer. Optimized quantization lets us reduce input data volume by 69\% with no significant impact on inference accuracy. When we tolerate a 2\% loss on inference accuracy, we achieved 81\% of input data reduction. Finally, the change from a 7-bit to a 3-bit input data quantization reduces our neural network size by 38\%.}
+}
+
+@ARTICLE{SambaNova_2022,
+AUTHOR={Milan, Petro Junior and Rong, Hongqian and Michaud, Craig and Layad, Naoufal and Liu, Zhengchun and Coffee, Ryan},
+TITLE={Enabling real-time adaptation of machine learning models at x-ray Free Electron Laser facilities with high-speed training optimized computational hardware},
+JOURNAL={Frontiers in Physics},
+VOLUME={10},
+YEAR={2022},
+URL={https://www.frontiersin.org/articles/10.3389/fphy.2022.958120},
+DOI={10.3389/fphy.2022.958120},
+ISSN={2296-424X},
+ABSTRACT={The emergence of novel computational hardware is enabling a new paradigm for rapid machine learning model training. For the Department of Energy’s major research facilities, this developing technology will enable a highly adaptive approach to experimental sciences. In this manuscript we present the per-epoch and end-to-end training times for an example of a streaming diagnostic that is planned for the upcoming high-repetition rate x-ray Free Electron Laser, the Linac Coherent Light Source-II. We explore the parameter space of batch size and data parallel training across multiple Graphics Processing Units and Reconfigurable Dataflow Units. We show the landscape of training times with a goal of full model retraining in under 15 min. Although a full from scratch retraining of a model may not be required in all cases, we nevertheless present an example of the application of emerging computational hardware for adapting machine learning models to changing environments in real-time, during streaming data acquisition, at the rates expected for the data fire hoses of accelerator-based user facilities.}
+}
+
+@article{Graphcore_2022,
+AUTHOR={Kraus, Mike and Layad, Naoufal and Liu, Zhengchun and Coffee, Ryan},   
+TITLE={EdgeAI: Machine learning via direct attached accelerator for streaming data processing at high shot rate x-ray free-electron lasers},      
+JOURNAL={Frontiers in Physics},      
+VOLUME={10},           
+YEAR={2022},      
+URL={https://www.frontiersin.org/articles/10.3389/fphy.2022.957509},       
+DOI={10.3389/fphy.2022.957509},      
+ISSN={2296-424X},   
+ABSTRACT={We present a case for low batch-size inference with the potential for adaptive training of a lean encoder model. We do so in the context of a paradigmatic example of machine learning as applied in data acquisition at high data velocity scientific user facilities such as the Linac Coherent Light Source-II x-ray Free-Electron Laser. We discuss how a low-latency inference model operating at the data acquisition edge can capitalize on the naturally stochastic nature of such sources. We simulate the method of attosecond angular streaking to produce representative results whereby simulated input data reproduce high-resolution ground truth probability distributions. By minimizing the mean-squared error between the decoded output of the latent representation and the ground truth distributions, we ensure that the encoding layers and resulting latent representation maintains full fidelity for any downstream task, be it classification or regression. We present throughput results for data-parallel inference of various batch sizes, some with throughput exceeding 100 k images per second. We also show in situ training below 10 s per epoch for the full encoder–decoder model as would be relevant for streaming and adaptive real-time data production at our nation’s scientific light sources.}
+}
+
+@InProceedings{Jack_smc2022,
+author="Hirschman, Jack
+and Kamalov, Andrei
+and Obaid, Razib
+and O'Shea, Finn H.
+and Coffee, Ryan N.",
+editor="Doug, Kothe
+and Al, Geist
+and Pophale, Swaroop
+and Liu, Hong
+and Parete-Koon, Suzanne",
+title="At-the-Edge Data Processing for Low Latency High Throughput Machine Learning Algorithms",
+booktitle="Accelerating Science and Engineering Discoveries Through Integrated Research Infrastructure for Experiment, Big Data, Modeling and Simulation",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="101--119",
+abstract="High throughput and low latency data processing is essential for systems requiring live decision making, control, and machine learning-optimized data reduction. We focus on two distinct use cases for in-flight streaming data processing for a) X-ray pulse reconstruction at SLAC's LCLS-II Free-Electron Laser and b) control diagnostics at the DIII-D tokamak fusion reactor. Both cases exemplify high throughput and low latency control feedback and motivate our focus on machine learning at the edge where data processing and machine learning algorithms can be implemented in field programmable gate array based hardware immediately after the diagnostic sensors. We present our recent work on a data preprocessing chain which requires fast featurization for information encoding. We discuss several options for such algorithms with the primary focus on our discrete cosine and sine transform-based approach adapted for streaming data. These algorithms are primarily aimed at implementation in field programmable gate arrays, favoring linear algebra operations that are also aligned with the recent advances in inference accelerators for the computational edge.",
+isbn="978-3-031-23606-8"
+}
+
+@InProceedings{Herbst_smc2022,
+author="Herbst, Ryan
+and Coffee, Ryan
+and Fronk, Nathan
+and Kim, Kukhee
+and Kim, Kuktae
+and Ruckman, Larry
+and Russell, J. J.",
+editor="Doug, Kothe
+and Al, Geist
+and Pophale, Swaroop
+and Liu, Hong
+and Parete-Koon, Suzanne",
+title="Implementation of a Framework for Deploying AI Inference Engines in FPGAs",
+booktitle="Accelerating Science and Engineering Discoveries Through Integrated Research Infrastructure for Experiment, Big Data, Modeling and Simulation",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="120--134",
+abstract="The LCLS2 Free Electron Laser (FEL) will generate x-ray pulses to beamline experiments at up to 1 Mhz. These experimentals will require new ultra-high rate (UHR) detectors that can operate at rates above 100 kHz and generate data throughputs upwards of 1 TB/s, a data velocity which requires prohibitively large investments in storage infrastructure. Machine Learning has demonstrated the potential to digest large datasets to extract relevant insights, however current implementations show latencies that are too high for real-time data reduction objectives. SLAC has endeavored on the creation of a software framework which translates MLs structures for deployment on Field Programmable Gate Arrays (FPGAs) deployed at the Edge of the data chain, close to the instrumentation. This framework leverages Xilinx's HLS framework presenting an API modeled after the open source Keras interface to the TensorFlow library. This SLAC Neural Network Library (SNL) framework is designed with a streaming data approach, optimizing the data flow between layers, while minimizing the buffer data buffering requirements. The goal is to ensure the highest possible framerate while keeping the maximum latency constrained to the needs of the experiment. Our framework is designed to ensure the RTL implementation of the network layers supporting full re-deployment of weights and biases without requiring re-synthesis after training. The ability to reduce the precision of the implemented networks through quantization is necessary to optimize the use of both DSP and memory resources in the FPGA. We currently have a preliminary version of the toolset and are experimenting with both general purpose example networks and networks being designed for specific LCLS2 experiments.",
+isbn="978-3-031-23606-8"
+}
+
+
 @misc{CookieNetAE,
 	title = {Open source implementation of the CookieNetAE model},
 	author = {Naoufal Layad, Zhengchun Liu, and Ryan Coffee},
