@@ -1,0 +1,200 @@
+PMID- 32012554
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20200207
+IS  - 1089-7623 (Electronic)
+IS  - 0034-6748 (Linking)
+VI  - 91
+IP  - 1
+DP  - 2020 Jan 1
+TI  - Time- and momentum-resolved photoemission studies using time-of-flight momentum 
+      microscopy at a free-electron laser.
+PG  - 013109
+LID - 10.1063/1.5118777 [doi]
+AB  - Time-resolved photoemission with ultrafast pump and probe pulses is an emerging 
+      technique with wide application potential. Real-time recording of nonequilibrium 
+      electronic processes, transient states in chemical reactions, or the interplay of 
+      electronic and structural dynamics offers fascinating opportunities for future 
+      research. Combining valence-band and core-level spectroscopy with photoelectron 
+      diffraction for electronic, chemical, and structural analyses requires few 10 fs 
+      soft X-ray pulses with some 10 meV spectral resolution, which are currently 
+      available at high repetition rate free-electron lasers. We have constructed and 
+      optimized a versatile setup commissioned at FLASH/PG2 that combines free-electron 
+      laser capabilities together with a multidimensional recording scheme for 
+      photoemission studies. We use a full-field imaging momentum microscope with 
+      time-of-flight energy recording as the detector for mapping of 3D band structures 
+      in (k(x), k(y), E) parameter space with unprecedented efficiency. Our instrument 
+      can image full surface Brillouin zones with up to 7 Å(-1) diameter in a 
+      binding-energy range of several eV, resolving about 2.5 × 10(5) data voxels 
+      simultaneously. Using the ultrafast excited state dynamics in the van der Waals 
+      semiconductor WSe(2) measured at photon energies of 36.5 eV and 109.5 eV, we 
+      demonstrate an experimental energy resolution of 130 meV, a momentum resolution 
+      of 0.06 Å(-1), and a system response function of 150 fs.
+FAU - Kutnyakhov, D
+AU  - Kutnyakhov D
+AUID- ORCID: 0000000262944600
+AD  - Deutsches Elektronen-Synchrotron DESY, 22607 Hamburg, Germany.
+FAU - Xian, R P
+AU  - Xian RP
+AUID- ORCID: 0000000198956956
+AD  - Fritz Haber Institute of the Max Planck Society, 14195 Berlin, Germany.
+FAU - Dendzik, M
+AU  - Dendzik M
+AD  - Fritz Haber Institute of the Max Planck Society, 14195 Berlin, Germany.
+FAU - Heber, M
+AU  - Heber M
+AD  - Deutsches Elektronen-Synchrotron DESY, 22607 Hamburg, Germany.
+FAU - Pressacco, F
+AU  - Pressacco F
+AD  - Physics Department and Centre for Free-Electron Laser Science (CFEL), University 
+      of Hamburg, 22761 Hamburg, Germany.
+FAU - Agustsson, S Y
+AU  - Agustsson SY
+AUID- ORCID: 0000000267008600
+AD  - Institut für Physik, Johannes Gutenberg-Universität Mainz, 55128 Mainz, Germany.
+FAU - Wenthaus, L
+AU  - Wenthaus L
+AD  - Deutsches Elektronen-Synchrotron DESY, 22607 Hamburg, Germany.
+FAU - Meyer, H
+AU  - Meyer H
+AD  - Physics Department and Centre for Free-Electron Laser Science (CFEL), University 
+      of Hamburg, 22761 Hamburg, Germany.
+FAU - Gieschen, S
+AU  - Gieschen S
+AD  - Physics Department and Centre for Free-Electron Laser Science (CFEL), University 
+      of Hamburg, 22761 Hamburg, Germany.
+FAU - Mercurio, G
+AU  - Mercurio G
+AD  - Physics Department and Centre for Free-Electron Laser Science (CFEL), University 
+      of Hamburg, 22761 Hamburg, Germany.
+FAU - Benz, A
+AU  - Benz A
+AD  - Physics Department and Centre for Free-Electron Laser Science (CFEL), University 
+      of Hamburg, 22761 Hamburg, Germany.
+FAU - Bühlman, K
+AU  - Bühlman K
+AD  - Laboratorium für Festkörperphysik, ETH Zürich, 8093 Zürich, Switzerland.
+FAU - Däster, S
+AU  - Däster S
+AUID- ORCID: 0000000320267784
+AD  - Laboratorium für Festkörperphysik, ETH Zürich, 8093 Zürich, Switzerland.
+FAU - Gort, R
+AU  - Gort R
+AD  - Laboratorium für Festkörperphysik, ETH Zürich, 8093 Zürich, Switzerland.
+FAU - Curcio, D
+AU  - Curcio D
+AD  - Department of Physics and Astronomy, Interdisciplinary Nanoscience Center 
+      (iNANO), Aarhus University, 8000 Aarhus C, Denmark.
+FAU - Volckaert, K
+AU  - Volckaert K
+AD  - Department of Physics and Astronomy, Interdisciplinary Nanoscience Center 
+      (iNANO), Aarhus University, 8000 Aarhus C, Denmark.
+FAU - Bianchi, M
+AU  - Bianchi M
+AUID- ORCID: 0000000201229443
+AD  - Department of Physics and Astronomy, Interdisciplinary Nanoscience Center 
+      (iNANO), Aarhus University, 8000 Aarhus C, Denmark.
+FAU - Sanders, Ch
+AU  - Sanders C
+AD  - Central Laser Facility, STFC Rutherford Appleton Laboratory, Harwell OX11 0QX, 
+      United Kingdom.
+FAU - Miwa, J A
+AU  - Miwa JA
+AD  - Department of Physics and Astronomy, Interdisciplinary Nanoscience Center 
+      (iNANO), Aarhus University, 8000 Aarhus C, Denmark.
+FAU - Ulstrup, S
+AU  - Ulstrup S
+AD  - Department of Physics and Astronomy, Interdisciplinary Nanoscience Center 
+      (iNANO), Aarhus University, 8000 Aarhus C, Denmark.
+FAU - Oelsner, A
+AU  - Oelsner A
+AD  - Surface Concept GmbH, 55124 Mainz, Germany.
+FAU - Tusche, C
+AU  - Tusche C
+AD  - Forschungszentrum Jülich GmbH, Peter Grünberg Institut (PGI-6), 52428 Jülich, 
+      Germany.
+FAU - Chen, Y-J
+AU  - Chen YJ
+AUID- ORCID: 0000000308216343
+AD  - Forschungszentrum Jülich GmbH, Peter Grünberg Institut (PGI-6), 52428 Jülich, 
+      Germany.
+FAU - Vasilyev, D
+AU  - Vasilyev D
+AD  - Institut für Physik, Johannes Gutenberg-Universität Mainz, 55128 Mainz, Germany.
+FAU - Medjanik, K
+AU  - Medjanik K
+AD  - Institut für Physik, Johannes Gutenberg-Universität Mainz, 55128 Mainz, Germany.
+FAU - Brenner, G
+AU  - Brenner G
+AD  - Deutsches Elektronen-Synchrotron DESY, 22607 Hamburg, Germany.
+FAU - Dziarzhytski, S
+AU  - Dziarzhytski S
+AD  - Deutsches Elektronen-Synchrotron DESY, 22607 Hamburg, Germany.
+FAU - Redlin, H
+AU  - Redlin H
+AD  - Deutsches Elektronen-Synchrotron DESY, 22607 Hamburg, Germany.
+FAU - Manschwetus, B
+AU  - Manschwetus B
+AUID- ORCID: 0000000161659560
+AD  - Deutsches Elektronen-Synchrotron DESY, 22607 Hamburg, Germany.
+FAU - Dong, S
+AU  - Dong S
+AUID- ORCID: 0000000279409583
+AD  - Fritz Haber Institute of the Max Planck Society, 14195 Berlin, Germany.
+FAU - Hauer, J
+AU  - Hauer J
+AD  - Fritz Haber Institute of the Max Planck Society, 14195 Berlin, Germany.
+FAU - Rettig, L
+AU  - Rettig L
+AD  - Fritz Haber Institute of the Max Planck Society, 14195 Berlin, Germany.
+FAU - Diekmann, F
+AU  - Diekmann F
+AD  - Institut für Experimentelle und Angewandte Physik, 
+      Christian-Albrechts-Universität zu Kiel, 24098 Kiel, Germany.
+FAU - Rossnagel, K
+AU  - Rossnagel K
+AUID- ORCID: 0000000151070090
+AD  - Deutsches Elektronen-Synchrotron DESY, 22607 Hamburg, Germany.
+FAU - Demsar, J
+AU  - Demsar J
+AUID- ORCID: 0000000345517444
+AD  - Institut für Physik, Johannes Gutenberg-Universität Mainz, 55128 Mainz, Germany.
+FAU - Elmers, H-J
+AU  - Elmers HJ
+AUID- ORCID: 0000000225259954
+AD  - Institut für Physik, Johannes Gutenberg-Universität Mainz, 55128 Mainz, Germany.
+FAU - Hofmann, Ph
+AU  - Hofmann P
+AD  - Department of Physics and Astronomy, Interdisciplinary Nanoscience Center 
+      (iNANO), Aarhus University, 8000 Aarhus C, Denmark.
+FAU - Ernstorfer, R
+AU  - Ernstorfer R
+AUID- ORCID: 0000000166653520
+AD  - Fritz Haber Institute of the Max Planck Society, 14195 Berlin, Germany.
+FAU - Schönhense, G
+AU  - Schönhense G
+AUID- ORCID: 0000000289212901
+AD  - Institut für Physik, Johannes Gutenberg-Universität Mainz, 55128 Mainz, Germany.
+FAU - Acremann, Y
+AU  - Acremann Y
+AUID- ORCID: 0000000241093544
+AD  - Laboratorium für Festkörperphysik, ETH Zürich, 8093 Zürich, Switzerland.
+FAU - Wurth, W
+AU  - Wurth W
+AD  - Deutsches Elektronen-Synchrotron DESY, 22607 Hamburg, Germany.
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - Rev Sci Instrum
+JT  - The Review of scientific instruments
+JID - 0405571
+SB  - IM
+EDAT- 2020/02/06 06:00
+MHDA- 2020/02/06 06:01
+CRDT- 2020/02/05 06:00
+PHST- 2020/02/05 06:00 [entrez]
+PHST- 2020/02/06 06:00 [pubmed]
+PHST- 2020/02/06 06:01 [medline]
+AID - 10.1063/1.5118777 [doi]
+PST - ppublish
+SO  - Rev Sci Instrum. 2020 Jan 1;91(1):013109. doi: 10.1063/1.5118777.
