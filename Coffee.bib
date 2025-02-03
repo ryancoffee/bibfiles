@@ -10,7 +10,70 @@
 @string{ol = "Opt.\ Lett."}
 
 
-Article{Hegazy2023,
+@article{Finn_2024,
+doi = {10.1088/2632-2153/ad6be7},
+url = {https://dx.doi.org/10.1088/2632-2153/ad6be7},
+year = {2024},
+month = {aug},
+publisher = {IOP Publishing},
+volume = {5},
+number = {3},
+pages = {035050},
+author = {Finn H O’Shea and Semin Joung and David R Smith and Daniel Ratner and Ryan Coffee},
+title = {Coincidence anomaly detection for unsupervised locating of edge localized modes in the DIII-D tokamak dataset},
+journal = {Machine Learning: Science and Technology},
+abstract = {Using supervised learning to train a machine learning model to predict an on-coming edge localized mode (ELM) requires a large number of labeled samples. Creating an appropriate data set from the very large database of discharges at a long-running tokamak, such as DIII-D, would be a very time-consuming process for a human. Considering this need and difficulty, we use coincidence anomaly detection, an unsupervised learning technique, to train an ELM-identifier to identify and label ELMs in the DIII-D discharge database. This ELM-identifier shows, simultaneously, a precision of 0.68 and a recall of 0.63 (AUC is 0.73) on identifying ELMs in example time series pulled from thousands of discharges spanning five years. In a test set of 50 discharges, the algorithm finds over 26 thousand ELM candidates, more than 5 times the existing catalog of ELMs labeled by humans.}
+}
+
+
+@article{Kevin2024,
+doi = {10.1088/2632-2153/ad605e},
+url = {https://dx.doi.org/10.1088/2632-2153/ad605e},
+year = {2024},
+month = {jul},
+publisher = {IOP Publishing},
+volume = {5},
+number = {3},
+pages = {035012},
+author = {K Gill and D Smith and S Joung and B Geiger and G McKee and J Zimmerman and R Coffee and A Jalalvand and E Kolemen},
+title = {Real-time confinement regime detection in fusion plasmas with convolutional neural networks and high-bandwidth edge fluctuation measurements},
+journal = {Machine Learning: Science and Technology},
+abstract = {A real-time detection of the plasma confinement regime can enable new advanced plasma control capabilities for both the access to and sustainment of enhanced confinement regimes in fusion devices. For example, a real-time indication of the confinement regime can facilitate transition to the high-performing wide-pedestal (WP) quiescent H-mode, or avoid unwanted transitions to lower confinement regimes that may induce plasma termination. To demonstrate real-time confinement regime detection, we use the 2D beam emission spectroscopy (BES) diagnostic system to capture localized density fluctuations of long wavelength turbulent modes in the edge region at a 1 MHz sampling rate. BES data from 330 discharges in either L-mode, H-mode, quiescent H (QH)-mode, or WP QH-mode were collected from the DIII-D tokamak and curated to develop a high-quality database to train a deep-learning classification model for real-time confinement detection. We utilize the 6×8 spatial configuration with a time window of 1024 µs and recast the input to obtain spectral-like features via fast Fourier transform preprocessing. We employ a shallow 3D convolutional neural network for the multivariate time-series classification task and utilize a softmax in the final dense layer to retrieve a probability distribution over the different confinement regimes. Our model classifies the global confinement state on 44 unseen test discharges with an average F 1 score of 0.94, using only ∼1 ms snippets of BES data at a time. This activity demonstrates the feasibility for real-time data analysis of fluctuation diagnostics in future devices such as ITER, where the need for reliable and advanced plasma control is urgent.}
+}
+
+@article{Semin2024,
+doi = {10.1088/1741-4326/ad43fb},
+url = {https://dx.doi.org/10.1088/1741-4326/ad43fb},
+year = {2024},
+month = {may},
+publisher = {IOP Publishing},
+volume = {64},
+number = {6},
+pages = {066038},
+author = {Semin Joung and David R. Smith and G. McKee and Z. Yan and K. Gill and J. Zimmerman and B. Geiger and R. Coffee and F.H. O’Shea and A. Jalalvand and E. Kolemen},
+title = {Tokamak edge localized mode onset prediction with deep neural network and pedestal turbulence},
+journal = {Nuclear Fusion},
+abstract = {A neural network, BES-ELMnet, predicting a quasi-periodic disruptive eruption of the plasma energy and particles known as edge localized mode (ELM) onset is developed with observed pedestal turbulence from the beam emission spectroscopy system in DIII-D. BES-ELMnet has convolutional and fully-connected layers, taking two-dimensional plasma fluctuations with a temporal window of size 128 µs and generating a scalar output which can be interpreted as a probability of the upcoming ELM onset. As approximately labeled inter-ELM broadband () fluctuations are given to the network, BES-ELMnet learns by itself ELM-related precursors arising before the onsets through supervised learning scheme. BES-ELMnet achieves the gradually increasing ELM onset probabilities between two consecutive ELMs during the inter-ELM phases and can forecast the first ELM onsets which occur after the high confinement mode transition. We further investigate the network generality in terms of the selected frequency band to ensure the use of BES-ELMnet for various operation regimes without changing the trained architecture. Therefore, our novel prediction method will enhance a proactive high confinement mode control of fusion-grade plasmas.}
+}
+
+@article{Najd2024,
+    author = {Altwaijry, Najd and Coffee, Ryan and Kling, Matthias F.},
+    title = "{Waveform retrieval for ultrafast applications based on convolutional neural networks}",
+    journal = {APL Machine Learning},
+    volume = {2},
+    number = {2},
+    pages = {026124},
+    year = {2024},
+    month = {06},
+    abstract = "{Electric field waveforms of light carry rich information about dynamical events on a broad range of timescales. The insight that can be reached from their analysis, however, depends on the accuracy of retrieval from noisy data. In this article, we present a novel approach for waveform retrieval based on supervised deep learning. We demonstrate the performance of our model by comparison with conventional denoising approaches, including wavelet transform and Wiener filtering. The model leverages the enhanced precision obtained from the nonlinearity of deep learning. The results open a path toward an improved understanding of physical and chemical phenomena in field-resolved spectroscopy.}",
+    issn = {2770-9019},
+    doi = {10.1063/5.0173933},
+    url = {https://doi.org/10.1063/5.0173933},
+    eprint = {https://pubs.aip.org/aip/aml/article-pdf/doi/10.1063/5.0173933/20009066/026124\_1\_5.0173933.pdf},
+}
+
+
+@article{Hegazy2023,
 author={Hegazy, Kareem
 and Makhija, Varun
 and Bucksbaum, Phil

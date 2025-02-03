@@ -1,0 +1,113 @@
+PMID- 28272500
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20191120
+IS  - 1476-4660 (Electronic)
+IS  - 1476-1122 (Linking)
+VI  - 16
+IP  - 6
+DP  - 2017 Jun
+TI  - Direct 3D mapping of the Fermi surface and Fermi velocity.
+PG  - 615-621
+LID - 10.1038/nmat4875 [doi]
+AB  - We performed a full mapping of the bulk electronic structure including the Fermi 
+      surface and Fermi-velocity distribution v(F)(k(F)) of tungsten. The 4D spectral 
+      function ρ(E(B); k) in the entire bulk Brillouin zone and 6 eV binding-energy 
+      (E(B)) interval was acquired in ∼3 h thanks to a new multidimensional 
+      photoemission data-recording technique (combining full-field k-microscopy with 
+      time-of-flight parallel energy recording) and the high brilliance of the soft 
+      X-rays used. A direct comparison of bulk and surface spectral functions (taken at 
+      low photon energies) reveals a time-reversal-invariant surface state in a local 
+      bandgap in the (110)-projected bulk band structure. The surface state connects 
+      hole and electron pockets that would otherwise be separated by an indirect local 
+      bandgap. We confirmed its Dirac-like spin texture by spin-filtered momentum 
+      imaging. The measured 4D data array enables extraction of the 3D dispersion of 
+      all bands, all energy isosurfaces, electron velocities, hole or electron 
+      conductivity, effective mass and inner potential by simple algorithms without 
+      approximations. The high-Z bcc metals with large spin-orbit-induced bandgaps are 
+      discussed as candidates for topologically non-trivial surface states.
+FAU - Medjanik, K
+AU  - Medjanik K
+AD  - Institut für Physik, Johannes Gutenberg-Universität, StaudingerWeg 7, 55128 
+      Mainz, Germany.
+FAU - Fedchenko, O
+AU  - Fedchenko O
+AD  - Institut für Physik, Johannes Gutenberg-Universität, StaudingerWeg 7, 55128 
+      Mainz, Germany.
+FAU - Chernov, S
+AU  - Chernov S
+AD  - Institut für Physik, Johannes Gutenberg-Universität, StaudingerWeg 7, 55128 
+      Mainz, Germany.
+FAU - Kutnyakhov, D
+AU  - Kutnyakhov D
+AD  - Institut für Physik, Johannes Gutenberg-Universität, StaudingerWeg 7, 55128 
+      Mainz, Germany.
+AD  - DESY Photon Science, Notkestraße 85, 22607 Hamburg, Germany.
+FAU - Ellguth, M
+AU  - Ellguth M
+AD  - Institut für Physik, Johannes Gutenberg-Universität, StaudingerWeg 7, 55128 
+      Mainz, Germany.
+FAU - Oelsner, A
+AU  - Oelsner A
+AD  - Surface Concept GmbH, Am Sägewerk 23a, 55124 Mainz, Germany.
+FAU - Schönhense, B
+AU  - Schönhense B
+AD  - Department of Bioengineering, Imperial College London, South Kensington Campus, 
+      London SW7 2AZ, UK.
+FAU - Peixoto, T R F
+AU  - Peixoto TRF
+AUID- ORCID: 0000-0001-6629-736X
+AD  - Universität Würzburg, Experimentelle Physik VII, 97074 Würzburg, Germany.
+FAU - Lutz, P
+AU  - Lutz P
+AD  - Universität Würzburg, Experimentelle Physik VII, 97074 Würzburg, Germany.
+FAU - Min, C-H
+AU  - Min CH
+AD  - Universität Würzburg, Experimentelle Physik VII, 97074 Würzburg, Germany.
+FAU - Reinert, F
+AU  - Reinert F
+AD  - Universität Würzburg, Experimentelle Physik VII, 97074 Würzburg, Germany.
+FAU - Däster, S
+AU  - Däster S
+AD  - Laboratorium für Festkörperphysik, ETH Zürich, Otto-Stern-Weg 1, 8093 Zürich, 
+      Switzerland.
+FAU - Acremann, Y
+AU  - Acremann Y
+AD  - Laboratorium für Festkörperphysik, ETH Zürich, Otto-Stern-Weg 1, 8093 Zürich, 
+      Switzerland.
+FAU - Viefhaus, J
+AU  - Viefhaus J
+AD  - DESY Photon Science, Notkestraße 85, 22607 Hamburg, Germany.
+FAU - Wurth, W
+AU  - Wurth W
+AD  - DESY Photon Science, Notkestraße 85, 22607 Hamburg, Germany.
+AD  - Physics Department and Center for Free-Electron Laser Science, Universität 
+      Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany.
+FAU - Elmers, H J
+AU  - Elmers HJ
+AD  - Institut für Physik, Johannes Gutenberg-Universität, StaudingerWeg 7, 55128 
+      Mainz, Germany.
+FAU - Schönhense, G
+AU  - Schönhense G
+AD  - Institut für Physik, Johannes Gutenberg-Universität, StaudingerWeg 7, 55128 
+      Mainz, Germany.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20170313
+PL  - England
+TA  - Nat Mater
+JT  - Nature materials
+JID - 101155473
+EDAT- 2017/03/09 06:00
+MHDA- 2017/03/09 06:01
+CRDT- 2017/03/09 06:00
+PHST- 2016/07/22 00:00 [received]
+PHST- 2017/02/03 00:00 [accepted]
+PHST- 2017/03/09 06:00 [pubmed]
+PHST- 2017/03/09 06:01 [medline]
+PHST- 2017/03/09 06:00 [entrez]
+AID - nmat4875 [pii]
+AID - 10.1038/nmat4875 [doi]
+PST - ppublish
+SO  - Nat Mater. 2017 Jun;16(6):615-621. doi: 10.1038/nmat4875. Epub 2017 Mar 13.

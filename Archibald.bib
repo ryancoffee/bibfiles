@@ -1,0 +1,14 @@
+@articleInfo{Richard Archibald 2022 Discrete and Continuous Dynamical Systems - S,
+title = {A dictionary learning algorithm for compression and reconstruction of streaming data in preset order},
+journal = {Discrete and Continuous Dynamical Systems - S},
+volume = {15},
+number = {4},
+pages = {655-668}
+year = {2022},
+issn = {1937-1632},
+doi = {10.3934/dcdss.2021102},
+url = {https://www.aimsciences.org/article/id/a5434903-0d93-49c8-9b79-29f4cdc577c2},
+author = {Richard Archibald and Hoang Tran},
+keywords = {Dictionary learning, matrix factorization, online algorithm},
+abstract = {There has been an emerging interest in developing and applying dictionary learning (DL) to process massive datasets in the last decade. Many of these efforts, however, focus on employing DL to compress and extract a set of important features from data, while considering restoring the original data from this set a secondary goal. On the other hand, although several methods are able to process streaming data by updating the dictionary incrementally as new snapshots pass by, most of those algorithms are designed for the setting where the snapshots are randomly drawn from a probability distribution. In this paper, we present a new DL approach to compress and denoise massive dataset in real time, in which the data are streamed through in a preset order (instances are videos and temporal experimental data), so at any time, we can only observe a biased sample set of the whole data. Our approach incrementally builds up the dictionary in a relatively simple manner: if the new snapshot is adequately explained by the current dictionary, we perform a sparse coding to find its sparse representation; otherwise, we add the new snapshot to the dictionary, with a Gram-Schmidt process to maintain the orthogonality. To compress and denoise noisy datasets, we apply the denoising to the snapshot directly before sparse coding, which deviates from traditional dictionary learning approach that achieves denoising via sparse coding. Compared to full-batch matrix decomposition methods, where the whole data is kept in memory, and other mini-batch approaches, where unbiased sampling is often assumed, our approach has minimal requirement in data sampling and storage: i) each snapshot is only seen once then discarded, and ii) the snapshots are drawn in a preset order, so can be highly biased. Through experiments on climate simulations and scanning transmission electron microscopy (STEM) data, we demonstrate that the proposed approach performs competitively to those methods in data reconstruction and denoising.}
+}
