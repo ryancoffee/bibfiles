@@ -106,6 +106,19 @@ journal = {Machine Learning: Science and Technology},
 abstract = {A real-time detection of the plasma confinement regime can enable new advanced plasma control capabilities for both the access to and sustainment of enhanced confinement regimes in fusion devices. For example, a real-time indication of the confinement regime can facilitate transition to the high-performing wide-pedestal (WP) quiescent H-mode, or avoid unwanted transitions to lower confinement regimes that may induce plasma termination. To demonstrate real-time confinement regime detection, we use the 2D beam emission spectroscopy (BES) diagnostic system to capture localized density fluctuations of long wavelength turbulent modes in the edge region at a 1 MHz sampling rate. BES data from 330 discharges in either L-mode, H-mode, quiescent H (QH)-mode, or WP QH-mode were collected from the DIII-D tokamak and curated to develop a high-quality database to train a deep-learning classification model for real-time confinement detection. We utilize the 6×8 spatial configuration with a time window of 1024 µs and recast the input to obtain spectral-like features via fast Fourier transform preprocessing. We employ a shallow 3D convolutional neural network for the multivariate time-series classification task and utilize a softmax in the final dense layer to retrieve a probability distribution over the different confinement regimes. Our model classifies the global confinement state on 44 unseen test discharges with an average F 1 score of 0.94, using only ∼1 ms snippets of BES data at a time. This activity demonstrates the feasibility for real-time data analysis of fluctuation diagnostics in future devices such as ITER, where the need for reliable and advanced plasma control is urgent.}
 }
 
+@INPROCEEDINGS{RickArchibald2024,
+  author={Archibald, Rick and Thakur, Addi Malviya and McDonnell, Marshall and Cage, Gregory and Stiner, Cody and Drane, Lance and Laiu, Paul and Brim, Michael J. and Doucet, Mathieu and Heller, William T. and Coffee, Ryan},
+  booktitle={2024 IEEE International Conference on Big Data (BigData)},
+  title={Privacy Preserving Federated Learning for Advanced Scientific Ecosystems},
+  year={2024},
+  volume={},
+  number={},
+  pages={4132-4138},
+  keywords={Privacy;Federated learning;Scientific computing;Ecosystems;Software algorithms;Distributed databases;Software;Security;Synthetic aperture sonar;Sustainable development;Federated Machine Learning;Distributed Data;Privacy;Security;Scientific Ecosystems},
+  doi={10.1109/BigData62323.2024.10825977}
+  }
+
+
 @article{Finn_2024,
 doi = {10.1088/2632-2153/ad6be7},
 url = {https://dx.doi.org/10.1088/2632-2153/ad6be7},
@@ -168,6 +181,20 @@ abstract = {A neural network, BES-ELMnet, predicting a quasi-periodic disruptive
     eprint = {https://pubs.aip.org/aip/aml/article-pdf/doi/10.1063/5.0173933/20009066/026124\_1\_5.0173933.pdf},
 }
 
+@article{Mehdi_2024,
+doi = {10.1088/2632-2153/ad8ea8},
+url = {https://doi.org/10.1088/2632-2153/ad8ea8},
+year = {2024},
+month = {nov},
+publisher = {IOP Publishing},
+volume = {5},
+number = {4},
+pages = {045041},
+author = {Mehdi Rahimifar, Mohammad and Wingering, Quentin and Gouin-Ferland, Berthié and Coffee, Ryan and Therrien, Audrey C},
+title = {Accelerating data acquisition with FPGA-based edge machine learning: a case study with LCLS-II},
+journal = {Machine Learning: Science and Technology},
+abstract = {New scientific experiments and instruments generate vast amounts of data that need to be transferred for storage or further processing, often overwhelming traditional systems. Edge machine learning (EdgeML) addresses this challenge by integrating machine learning (ML) algorithms with edge computing, enabling real-time data processing directly at the point of data generation. EdgeML is particularly beneficial for environments where immediate decisions are required, or where bandwidth and storage are limited. In this paper, we demonstrate a high-speed configurable ML model in a fully customizable EdgeML system using a field programmable gate array (FPGA). Our demonstration focuses on an angular array of electron spectrometers, referred to as the ‘CookieBox,’ developed for the Linac Coherent Light Source II project. The EdgeML system captures 51.2 Gbps from a 6.4 GS s−1 analog to digital converter and is designed to integrate data pre-processing and ML inside an FPGA. Our implementation achieves an inference latency of 0.2 µs for the ML model, and a total latency of 0.4 µs for the complete EdgeML system, which includes pre-processing, data transmission, digitization, and ML inference. The modular design of the system allows it to be adapted for other instrumentation applications requiring low-latency data processing.}
+}
 
 @article{Hegazy2023,
 author={Hegazy, Kareem
