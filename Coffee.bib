@@ -9,6 +9,13 @@
 @string{josab = "J.\ Opt.\ Soc.\ Am.B"}
 @string{ol = "Opt.\ Lett."}
 
+@article{Abby2026,
+title = {FPGA-Accelerated Real-Time Diagnostics at DIII-D Using the SLAC Neural Network Library for ML Inference},
+author = {Abhilasha Dave and \textit{et al.}},
+year = {2026},
+journal = {in preparation}
+}
+
 @misc{JackLaserShaping2026,
       title={Advanced Control of Electron Beams: Tailoring X-ray Production with Programmable Laser Shaping},
       author={Jack Hirschman and Randy Lemons and Hao Zhang and Razib Obaid and River Robles and Paris Franz and Benjamin Mencer and Nicole Neveu and Matthew Britton and David Cesar and Nicolas Sudar and Zhen Zhang and Justin Baker and Chad Pennington and Kurtis Borne and Taran Driver and Kirk A. Larsen and Veronica Guo and Yuantao Ding and Gabriel Just and Feng Zhou and James Cryan and Joseph Robinson and Ryan Coffee and Agostino Marinelli and Sergio Carbajo},
@@ -84,7 +91,20 @@ journal = {Nuclear Fusion},
   month        = {11}
   }
 
-
+@article{Gill_2024,
+doi = {10.1088/2632-2153/ad605e},
+url = {https://doi.org/10.1088/2632-2153/ad605e},
+year = {2024},
+month = {jul},
+publisher = {IOP Publishing},
+volume = {5},
+number = {3},
+pages = {035012},
+author = {Gill, K and Smith, D and Joung, S and Geiger, B and McKee, G and Zimmerman, J and Coffee, R and Jalalvand, A and Kolemen, E},
+title = {Real-time confinement regime detection in fusion plasmas with convolutional neural networks and high-bandwidth edge fluctuation measurements},
+journal = {Machine Learning: Science and Technology},
+abstract = {A real-time detection of the plasma confinement regime can enable new advanced plasma control capabilities for both the access to and sustainment of enhanced confinement regimes in fusion devices. For example, a real-time indication of the confinement regime can facilitate transition to the high-performing wide-pedestal (WP) quiescent H-mode, or avoid unwanted transitions to lower confinement regimes that may induce plasma termination. To demonstrate real-time confinement regime detection, we use the 2D beam emission spectroscopy (BES) diagnostic system to capture localized density fluctuations of long wavelength turbulent modes in the edge region at a 1 MHz sampling rate. BES data from 330 discharges in either L-mode, H-mode, quiescent H (QH)-mode, or WP QH-mode were collected from the DIII-D tokamak and curated to develop a high-quality database to train a deep-learning classification model for real-time confinement detection. We utilize the 6×8 spatial configuration with a time window of 1024 µs and recast the input to obtain spectral-like features via fast Fourier transform preprocessing. We employ a shallow 3D convolutional neural network for the multivariate time-series classification task and utilize a softmax in the final dense layer to retrieve a probability distribution over the different confinement regimes. Our model classifies the global confinement state on 44 unseen test discharges with an average F 1 score of 0.94, using only ∼1 ms snippets of BES data at a time. This activity demonstrates the feasibility for real-time data analysis of fluctuation diagnostics in future devices such as ITER, where the need for reliable and advanced plasma control is urgent.}
+}
 
 @article{Finn_2024,
 doi = {10.1088/2632-2153/ad6be7},
